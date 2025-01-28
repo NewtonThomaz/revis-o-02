@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto Condensed", serif;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    height: 10dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    padding-block: 1dvw;
+    padding-inline: 3dvw;
+    h2 {
+        font-size: 2rem;
+    }
+    ul {
+        display: flex;
+        gap: 2dvw;
+        li {
+            font-size: 1.2rem;
+        }
+    }
+}
+.ativo {
+    color: rgb(165, 23, 23);
+}
+section {
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, p {
+    background-color:  rgba(0, 0, 0, 0.500);
+    border-radius: 3px;
+    padding: 3px;
+}
+h1 {
+    font-size: 3.4rem;
+}
+p {
+    font-size: 1.1rem;
+}
+.Home {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li:hover {
+    font-size: 1.3rem;
+}
+.About {
+    background-color: black;
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 3dvw;
+        align-items: center;
+        img {
+            height: 60dvh;
+        }
+        p {
+            width: 55dvw;
+        }
+    }
+}
